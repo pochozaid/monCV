@@ -1,0 +1,44 @@
+@media only screen and (max-width: 740px) {
+
+header img {
+margin-left: auto;
+margin-right: auto;
+float: none;
+ } 
+#wrapper { 
+background: #f77;
+width:100%;
+ }
+}
+
+@media only screen and (max-width: 570px) {
+header img {
+
+margin-left: auto;
+margin-right: auto;
+float: none;
+ } 	
+
+#wrapper { 
+	background:#7f7;
+	width:100%; }
+
+}
+
+@media only screen (max-width: 480px) {
+header img {
+margin-left: auto;
+margin-right: auto;
+float: none;
+ } 
+ 	dt {
+ 		margin-left: auto;
+		margin-right: auto;
+ 	}
+	#wrapper {
+
+	  background:#77f;
+	  width:100%;
+
+	}
+}
