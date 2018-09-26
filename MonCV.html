@@ -4,8 +4,8 @@
 		<link rel="stylesheet" href="css/resume.css"/>
 		<link rel="stylesheet" href="css/responsive.css"/>
 		<link="https://maxcdn.boostrapcdn.com/font-awesome/4.4.0/css/fontawesome.min.css">
-		<link rel="stylesheet" href="https:/
-		/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE-edge,chrome=1">
 		<title>Mon CV</title>
@@ -13,6 +13,8 @@
 		<meta name="keywords" content="web,developper,resume"/>
 		<meta name="author" content="Mon nom">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript" src="src/javascripts.js" > </script>
+		<script src="http://use.edgefonts.net/aladin:n4;alegreya-sc;alexa-std;amatic-sc;alice;artifika.js"></script>
 		<!--[if It lE 9]>
 			<script src="http://html5shiv.googlecolde.com/svn/trunk/html5.js"></script><![endif]-->
 	</head>
@@ -28,52 +30,68 @@
 			<div itemscope itemtype="http://schema.org/Person">
 		<section>
 			<p>Nom: Bennani<br>Prenom: Zaid<br>Adresse: Rue de la digue<br>Ville: Brest<br>Date de naissance:27/09/1997<br>Email: zaidbennani22@gmail.com<br>Nationalité: Marocain</p>
-			<article>J'etais toujours passioné par l'informatique c'est purquoi <br>j'ai orienté mes etudes vers ce domaine </article>
+			<article>J'etais toujours passioné par l'informatique c'est pourquoi <br>j'ai orienté mes etudes vers ce domaine </article>
 		</section>
 		<br>
+		
+		
+	
+		
+		
+		
+		
 		<section>
-			<dl>
-			<dt><strong>Competences :</strong></dt>
-			<dd>Html</dd>
+    <article>
+       <h1 ><i class="fas fa-graduation-cap"  onclick="affiche('Formation');"></i>Formation</h1>
+      <div id="Formation" class="tout">
+        <dd>2014: Bac meniton trés bien</dd>
+        <dd>2014-2018: Ensa de kenitra</dd>
+		<dd>2018-2019: Master Dosi à l'UBO</dd>
+      
+      </div>
+    </article>
+    <article>
+      <h1 class="title"> <i class="fas fa-bookmark" onclick="affiche('Compétences');"></i><strong> Compétences </strong> </h1>
+    <div id="Compétences" class="tout">
+    	<dd>Html</dd>
 			<dd>Css</dd>
 			<dd>Javascript</dd>
 			<dd>Java</dd>
 			<dd>C++</dd>
 			<dd>C</dd>
-			</dl>
-		</section>
-		
-		<section>
-			<dl>
-			<dt><strong>Langues:</strong></dt>
-			<dd>Arabe: Maternelle</dd>
-			<dd>Francais: courant</dd>
-			<dd>Anglais: bon niveau</dd>
-			</dl>
-		</section>
-		
-		<section>
-			<dl>
-			<dt><strong>Formation:</strong></dt>
-			<dd>2014: Bac mention trés bien</dd>
-			<dd>2014-2018: Ensa de kenitra</dd>
-			<dd>2018-2019: Master Dosi à l'UBO</dd>
-			</dl>
-		</section>
-		<section>
-			<dl>
-			<dt><strong>Loisirs :</strong></dt>
-			<dd>Sport</dd>
-			<dd>Voyage</dd>
-			</dl>
-		</section>
-		</div>
+			
+      
+    </div>
+    </article>
+    <article>
+      <h1 class="title">
+        <i class="fas fa-language" onclick="affiche('langues')"> </i> Langues </h1>
+      <div id="langues" class="tout">
+      <dl><dt>Arabe</dt>
+        <dd> Maternelle</dd></dl>
+      <dl><dt>Francais</dt>
+        <dd> Courant</dd></dl>
+      <dl><dt>Anglais</dt>
+        <dd> Bon niveau</dd></dl>
+      </div>
+    </article>
+    <article>
+      <h1 class="title"><i class="fas fa-suitcase" onclick="affiche('Loisirs')"  ></i> Loisirs </h1>
+      <div id="Loisirs" class="tout">
+      <dd>Sport</dd>
+	  <dd>Voyage</dd>
+      </div>
+    </article>
+ 
+    
+  </section>
+</div>
 	</body>
 	<footer>
 		<p><strong>Liens :</strong></p>
-	<a href="https://www.facebook.com/Zaid.Bennani.Real.madrid" class="fa fa-facebook"> Facebook</a> <br>
-	<a href="https://github.com/pochozaid" class="fa fa-github"> GitHub</a><br>
-	<a href="https//linkedin.com/" class="fa fa-linkedin"> LinkedIn</a>
+	<a href="https://www.facebook.com/Zaid.Bennani.Real.madrid" class="fab fa-facebook"> Facebook</a> <br>
+	<a href="https://github.com/pochozaid" class="fab fa-github"> GitHub</a><br>
+	<a href="https//linkedin.com/" class="fab fa-linkedin"> LinkedIn</a>
 	</footer>
 </div>
 </html>
