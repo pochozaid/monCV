@@ -36,7 +36,7 @@ float: none;
 		margin-right: auto;
  	}
 	#wrapper {
-
+	  display:initial;
 	  background:#77f;
 	  width:100%;
 
