@@ -35,10 +35,10 @@
 		<section>
     		<article>
        		<h1 ><i class="fas fa-graduation-cap"  onclick="affiche('Formation');"></i>Formation</h1>
-      		<div id="Formation" class="tout">
-        		<dd>2014: Bac meniton trés bien</dd>
-        		<dd>2014-2018: Ensa de kenitra</dd>
-				<dd>2018-2019: Master Dosi à l'UBO</dd>
+      		<div id="Formation" class="tout" style="display:none">
+        		<dd data-tooltip="Lycée Alpha">2014: Bac meniton trés bien</dd>
+        		<dd data-tooltip="Ensa Kenitra">2014-2018: Cycle ingenieur genie informatique</dd>
+				<dd data-tooltip="UBO">2018-2019: Master Dosi M2</dd>
       
      		 </div>
     		</article>
@@ -46,25 +46,27 @@
 		<section>
     		<article>
       		<h1 > <i class="fas fa-bookmark" onclick="affiche('Compétences');"></i><strong> Compétences </strong> </h1>
-    		<div id="Compétences" class="tout">
-    			<dd>Html</dd>
-				<dd>Css</dd>
-				<dd>Javascript</dd>
-				<dd>Java</dd>
-				<dd>C++</dd>
-				<dd>C</dd>      
+    		<div id="Compétences" class="tout" style="display:none">
+    				<dd><strong>Langages de programmation :</strong></strong><button onclick="Progressive(1)"> Plus </button><dd  id="1" style="display:none;">JAVA ,C, C#  Python,Shell, SQL.</dd><br>
+					<dd><strong>Developpement Web :</strong><button onclick="Progressive(2)"> Plus </button><dd  id="2" style="display:none;"> PHP,CSS3,HTML5,J2EE,XML,JavaScript.</dd><br>
+					<dd><strong>Conception et modelisation:</strong><button onclick="Progressive(3)"> Plus </button><dd " id="3" style="display:none;"> Merise,UML.</dd><br>
+					<dd><strong>SGBDR:</strong> <button onclick="Progressive(4)"> Plus </button><dd  id="4" style="display:none;">MySQL, Oracle.</dd><br>
+					<dd><strong>Systeme d'exploitation :</strong><button onclick="Progressive(5)"> Plus </button><dd  id="5" style="display:none;"> Windows,Linux</dd><br>
+					<dd><strong>Bureautique :</strong><button onclick="Progressive(6)"> Plus </button><dd  id="6" style="display:none;">Word,Excel,Power Point,Photoshop.
+					</dd><br>
+					    
    			</div>
    			</article>
     	</section>
     	<section>
     		<article>
       		<h1><i class="fas fa-language" onclick="affiche('langues')"> </i> Langues </h1>
-      		<div id="langues" class="tout">
-      			<dl><dt>Arabe</dt>
+      		<div id="langues" class="tout" style="display:none">
+      			<dl><dt>Arabe :</dt>
         		<dd> Maternelle</dd></dl>
-      			<dl><dt>Francais</dt>
+      			<dl><dt>Francais :</dt>
        			<dd> Courant</dd></dl>
-      			<dl><dt>Anglais</dt>
+      			<dl><dt>Anglais :</dt>
         		<dd> Bon niveau</dd></dl>
       		</div>
     		</article>
@@ -72,7 +74,7 @@
    		<section>
     		<article>
       		<h1 class="title"><i class="fas fa-suitcase" onclick="affiche('Loisirs')"  ></i> Loisirs </h1>
-      		<div id="Loisirs" class="tout">
+      		<div id="Loisirs" class="tout" style="display:none">
       			<dd>Sport</dd>
 	  			<dd>Voyage</dd>
       		</div>
