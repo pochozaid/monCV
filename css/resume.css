@@ -7,7 +7,7 @@ font-size:1em;
 line-height:1.4;  
 }
 body{
-	background-color: #777;
+	background-color: #A4A4A4;
 	
 }
 #wrapper{
@@ -15,6 +15,8 @@ body{
 	min-width: 320px;
 	margin-left:auto;
 	margin-right: auto;
+	outline: 2px solid;
+	outline-offset: 80px;
 
 }
 img{
@@ -120,4 +122,10 @@ p {font-family: alegreya, serif;;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
+}
+h1{
+	color: #0000FF;
+}
+h2{
+	color:#5882FA;
 }

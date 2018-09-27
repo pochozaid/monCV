@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-		<link rel="stylesheet" href="css/resume.css"/>
-		<link rel="stylesheet" href="css/responsive.css"/>
-		<link="https://maxcdn.boostrapcdn.com/font-awesome/4.4.0/css/fontawesome.min.css">
-		
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE-edge,chrome=1">
+		<link rel="stylesheet" type="text/css" href="css/resume.css"/>
+		<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+		<link="https://maxcdn.boostrapcdn.com/font-awesome/4.4.0/css/fontawesome.min.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE-edge,chrome=1"/>
 		<title>Mon CV</title>
-		<meta name="description" contetn="A propos de moi">
+		<meta name="description" contetn="A propos de moi"/>
 		<meta name="keywords" content="web,developper,resume"/>
-		<meta name="author" content="Mon nom">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<script type="text/javascript" src="src/javascripts.js" > </script>
+		<meta name="author" content="Mon nom"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<script type="text/javascript" src="src/javascripts.js"></script>
 		<script src="http://use.edgefonts.net/aladin:n4;alegreya-sc;alexa-std;amatic-sc;alice;artifika.js"></script>
 		<!--[if It lE 9]>
 			<script src="http://html5shiv.googlecolde.com/svn/trunk/html5.js"></script><![endif]-->
@@ -21,7 +20,7 @@
 	<body>
 	<div id="wrapper">
 			<header>
-				<i class="icon-camera-retro"><h1>Zaid Bennani</h1></i>
+				<h1>Zaid Bennani</h1></i>
 				<h2>Eleve ingénieur en Informatique</h2>
 				<image src="moi.jpg"/>
 			</header>
@@ -34,7 +33,7 @@
 		<br>		
 		<section>
     		<article>
-       		<h1 ><i class="fas fa-graduation-cap"  onclick="affiche('Formation');"></i>Formation</h1>
+       		<h1 onclick="affiche('Formation')" ><strong>Formation</strong></h1>
       		<div id="Formation" class="tout" style="display:none">
         		<dd data-tooltip="Lycée Alpha">2014: Bac meniton trés bien</dd>
         		<dd data-tooltip="Ensa Kenitra">2014-2018: Cycle ingenieur genie informatique</dd>
@@ -45,14 +44,14 @@
 		</section>
 		<section>
     		<article>
-      		<h1 > <i class="fas fa-bookmark" onclick="affiche('Compétences');"></i><strong> Compétences </strong> </h1>
+      		<h1 onclick="affiche('Compétences')"><strong> Compétences </strong> </h1>
     		<div id="Compétences" class="tout" style="display:none">
-    				<dd><strong>Langages de programmation :</strong></strong><button onclick="Progressive(1)"> Plus </button><dd  id="1" style="display:none;">JAVA ,C, C#  Python,Shell, SQL.</dd><br>
-					<dd><strong>Developpement Web :</strong><button onclick="Progressive(2)"> Plus </button><dd  id="2" style="display:none;"> PHP,CSS3,HTML5,J2EE,XML,JavaScript.</dd><br>
-					<dd><strong>Conception et modelisation:</strong><button onclick="Progressive(3)"> Plus </button><dd " id="3" style="display:none;"> Merise,UML.</dd><br>
-					<dd><strong>SGBDR:</strong> <button onclick="Progressive(4)"> Plus </button><dd  id="4" style="display:none;">MySQL, Oracle.</dd><br>
-					<dd><strong>Systeme d'exploitation :</strong><button onclick="Progressive(5)"> Plus </button><dd  id="5" style="display:none;"> Windows,Linux</dd><br>
-					<dd><strong>Bureautique :</strong><button onclick="Progressive(6)"> Plus </button><dd  id="6" style="display:none;">Word,Excel,Power Point,Photoshop.
+    				<dd><strong>Langages de programmation :</strong><button onclick="Progressive(1)"> Visualiser </button><dd  class="agrandir" id="1" style="display:none;">JAVA ,C, C#  Python,Shell, SQL.</dd><br>
+					<dd><strong>Developpement Web :</strong><button onclick="Progressive(2)"> Visualiser </button><dd  class="agrandir" id="2" style="display:none;"> PHP,CSS3,HTML5,J2EE,XML,JavaScript.</dd><br>
+					<dd><strong>Conception et modelisation:</strong><button onclick="Progressive(3)"> Visualiser </button><dd class="agrandir" id="3" style="display:none;"> Merise,UML.</dd><br>
+					<dd><strong>SGBDR:</strong><button onclick="Progressive(4)"> Visualiser </button><dd class="agrandir" id="4" style="display:none;">MySQL, Oracle.</dd><br>
+					<dd><strong>Systeme d'exploitation :</strong><button onclick="Progressive(5)"> Visualiser </button><dd class="agrandir"  id="5" style="display:none;"> Windows,Linux</dd><br>
+					<dd><strong>Bureautique :</strong><button onclick="Progressive(6)"> Visualiser </button><dd class="pagrandir" id="6" style="display:none;">Word,Excel,Power Point,Photoshop.
 					</dd><br>
 					    
    			</div>
@@ -60,7 +59,7 @@
     	</section>
     	<section>
     		<article>
-      		<h1><i class="fas fa-language" onclick="affiche('langues')"> </i> Langues </h1>
+      		<h1 onclick="affiche('langues')"><strong> Langues </strong></h1>
       		<div id="langues" class="tout" style="display:none">
       			<dl><dt>Arabe :</dt>
         		<dd> Maternelle</dd></dl>
@@ -73,7 +72,7 @@
     	</section>
    		<section>
     		<article>
-      		<h1 class="title"><i class="fas fa-suitcase" onclick="affiche('Loisirs')"  ></i> Loisirs </h1>
+      		<h1 onclick="affiche('Loisirs')"><strong> Loisirs</strong> </h1>
       		<div id="Loisirs" class="tout" style="display:none">
       			<dd>Sport</dd>
 	  			<dd>Voyage</dd>
@@ -83,10 +82,10 @@
 	
 	</body>
 	<footer>
-		<p><strong>Liens :</strong></p>
-		<a href="https://www.facebook.com/Zaid.Bennani.Real.madrid" class="fab fa-facebook"> Facebook</a> <br>
-		<a href="https://github.com/pochozaid" class="fab fa-github"> GitHub</a><br>
-		<a href="https//linkedin.com/" class="fab fa-linkedin"> LinkedIn</a>
+		<h3><strong>Liens :</strong></h3>
+		<a href="https://www.facebook.com/Zaid.Bennani.Real.madrid" class="fa fa-facebook"> Facebook</a> <br>
+		<a href="https://github.com/pochozaid" class="fa fa-github"> GitHub</a><br>
+		<a href="https//linkedin.com/" class="fa fa-linkedin"> LinkedIn</a>
 	</footer>
 </div>
 </html>
