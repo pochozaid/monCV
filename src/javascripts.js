@@ -18,18 +18,18 @@ function affiche(id)
   return true;
 }
 function Progressive(id) {
-  var divid=document.getElementById(id);
+  var elm=document.getElementById(id);
   var list = document.getElementsByClassName("agrandir");
   [].forEach.call(list, function (i) {i.classList.remove("agrandir");
-  if(i!==divid)
+  if(i!==elm)
   i.style.display="none";
   });
-  if(divid.style.display == 'none'){
-  divid.classList.add("agrandir");
-  divid.style.display='inline';
+  if(elm.style.display == 'none'){
+  elm.classList.add("agrandir");
+  elm.style.display='inline';
   }
   else{
-  divid.style.display='none';
+  elm.style.display='none';
   } 
   var myAwesomeVar = 1;
 
