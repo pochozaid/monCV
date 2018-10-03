@@ -37,3 +37,21 @@ function Progressive(id) {
   // after 2 seconds stop
   setTimeout(() => { clearInterval(timerId);}, 1000);
 }
+var levels = {
+  J2e : 3,
+  Java : 5,
+  C : 5,
+  Python : 3,
+  htmlcssjs : 4,
+  PHP : 4,
+  TSQLSQL : 5
+};
+
+for (field in levels) {
+  var stars = document.getElementsByClassName(field).item(0);
+  var children = stars.children;
+  for (var i = 0; i < levels[field]; i++) {
+    var star = children.item(i);
+    star.className = "fas fa-star";
+  }
+}
