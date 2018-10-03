@@ -34,17 +34,16 @@ function Progressive(id) {
   var myAwesomeVar = 1;
 
   let timerId = setInterval(function (){var i=0;list[i].style.fontSize= myAwesomeVar++ + "px";i++;}, 60);
-  // after 2 seconds stop
+  
   setTimeout(() => { clearInterval(timerId);}, 1000);
+
 }
+
 var levels = {
-  J2e : 3,
-  Java : 5,
-  C : 5,
-  Python : 3,
-  htmlcssjs : 4,
-  PHP : 4,
-  TSQLSQL : 5
+  Arabe:5,
+  Francais:4,
+  Anglais:3
+ 
 };
 
 for (field in levels) {
